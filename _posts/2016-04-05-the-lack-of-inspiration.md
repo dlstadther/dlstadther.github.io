@@ -15,13 +15,13 @@ However, without that guidance I often feel lost.
 I've tried doing some independent "weekend projects" on my own, but none of them ever get finished - either due to lack of interest in the project itself or due to the daunting nature of it.
 By no means have I even produced a thought of some novel work. Basically my list of projects (which remains written on a whiteboard in my living room) consists of:
 
-* (Pure) Python DBMS (tk frontend, sqlalchemy backend)
-    * inspired by my sub-par opinion of sql-workbench for redshift
-    * and love for python with the curiosity of "is this possible?"
-* Remotely accessible media server
-    * so that I can access my digital media and academic library remotely without reliance on significant cloud storage
-* Websites
-    * this one, and stadther.net (currently a redirect here)  
+- (Pure) Python DBMS (tk frontend, sqlalchemy backend)
+    - inspired by my sub-par opinion of sql-workbench for redshift
+    - and love for python with the curiosity of "is this possible?"
+- Remotely accessible media server
+    - so that I can access my digital media and academic library remotely without reliance on significant cloud storage
+- Websites
+    - this one, and stadther.net (currently a redirect here)
 
 All these projects, while useful (to me), seem very lackluster; thus diminishing my motivation.
 
