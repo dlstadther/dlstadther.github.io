@@ -1,3 +1,36 @@
-name: Dillon Stadther, Software Developer
-markdown: kramdown
+# Site settings
+title: DLStadther
+author: Dillon Stadther
+email: dlstadther+gh-pages@gmail.com
+description: >-
+  Data Engineer by day, Sleeping Human by night. Just a young individual
+  building his career through on-and-off-the-job technical experiences.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://dlstadther.github.io"
+
+github_username:  dlstadther
+twitter_username: dlstadther
+linkedin_username:  dlstadther
+# stackoverflow_username: 2565651/dlstadther
+
+google_analytics: UA-55901129-5
+
+# Build settings
 permalink: /blog/:year/:month/:day/:title
+show_excerpts: true
+
+markdown: kramdown
+theme: minima
+# plugins:
+  # - jekyll-feed
+
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
+
+# Exclude from processing.
+exclude:
+  - Gemfile
+  - Gemfile.lock
