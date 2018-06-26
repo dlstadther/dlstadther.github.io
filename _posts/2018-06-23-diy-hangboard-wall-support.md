@@ -1,23 +1,23 @@
 ---
 layout: post
-title: "Hangboard wall support"
+title: "DIY: Hangboard Wall Support"
 date: 2018-06-23
 categories: climbing training carpentry design engineering
 ---
 
 Growing up, I've found that as I find activities I enjoy I tend to invest both time and money into getting better at them. Climbing is no exception.
 
-I was introduce to climbing, specifically bouldering, during my last semester of college. After moving to Raleigh for employment, I found a local gym so that I could keep bouldering. A few months in, I started seeing serious progress and I started training niche muscualar development to improvem my climbing power and endurance. One of the training exercises is finger and forearm endurance training on a hangboard. While my gym had a couple of these training tools, I found that when I was at the gym I wanted to climb, not train. By the time I'd finished climbing, I'd be too wiped to be able to focus carefully on specific training of my fingers and forearms.
+I was introduced to climbing, specifically bouldering, during my last semester of college. After moving to Raleigh for employment, I found a local gym so that I could keep bouldering. A few months in, I started seeing serious progress and I started training niche muscualar development to improve my climbing power and endurance. One of the training exercises is for finger and forearm endurance training on a hangboard. While my gym had a couple of these training tools, I found that when I was at the gym I wanted to climb, not train. By the time I'd finished climbing, I'd be too wiped to be able to focus carefully on specific training of my fingers and forearms.
 
 So now, insert my desire to invest in training at home.
 
 # Hangboard Training (@ Home)
 
-My first thought was to mimic the home setups I'd seen before - just mount a hangboard on a 2x8 slab over a door frame. However, I knew I'd want to use chalk and didn't want that mess on my carpet. So I waited until I moved into a place with a garage - the perfect place for training activities. The new problem was now that rather than mounting a hangboard over a doorframe in the garage, I wanted to create a structure which would offset the handboard from a flat surface (i.e. wall) enough that I wouldn't be hanging with my nose against the drywall.
+My first thought was to mimic the home setups I'd seen before - just mount a hangboard on a 2x8 slab over a door frame. However, I knew I'd want to use chalk (because my hands sweat just from thinking about climbing) and didn't want that mess on my carpet. So I waited until I moved into a place with a garage - the perfect place for training activities. The new problem was now that rather than mounting a hangboard over a doorframe in the garage, I wanted to create a structure which would offset the handboard from a flat surface (i.e. wall) enough that I wouldn't be hanging with my nose against the drywall.
 
-This was just the opportunity I was looking for to spend personal time on a woodworking project. Throughout my teenage and early-adult years, I've had multiple experiences with building porches and wheelchair ramps at various mission trips with much enjoyment. So I had experience with power tools and construction instructions - now I just had to create instructions for myself!
+This was just the opportunity I was looking for to spend personal time on a woodworking project. Throughout my teenage and early-adult years, I've had multiple experiences with building porches and wheelchair ramps at various mission trips with much enjoyment. So I had experience with power tools and construction DIY instructions - now I just had to create instructions for myself!
 
-So... Given my intrigue of engineering, desire to train for climbing at home, and preference for my garage to house my project, I decided to build a wall support for a hangboard.
+So... given my intrigue of engineering, desire to train for climbing at home, and preference for my garage to house my project, I decided to build a wall support for a hangboard.
 
 ## Hangboard Acquisition
 
@@ -27,7 +27,7 @@ Before beginning this project, I needed a hangboard to which to build around. To
 
 ## Structural Design & Material Acquisition
 
-Now that I had a board, I then knew the dimensions I had to work with for the face of the support.
+Now that I had a hangboard, I then knew the dimensions I had to work with for the face of the support.
 
 Given the face dimensions and preferred distance away from wall, I chose my measurements such that I would only need to purchase a single sheet of MDF.
 
@@ -37,7 +37,7 @@ Visual Design Plan, from multiple assembly stages
 ![Lumber Planning]({{ "/assets/img/hangboard-lumber-plan.jpg" }})
 MDF Teardown Plans
 
-It was then time to get materials. I went to Lowes, had to ask for the .75" MDF which was on the very very top of the storage shelving. They grabbed the wrong stuff at first, so they gave me a discount for waiting patiently for over 10 minutes. I then measured and marked my sheet and got an employee to cut it for me on their saw.
+It was then time to get materials. I went to Lowes, had to ask for the .75" MDF which was on the very very top of the storage shelving. They grabbed the wrong stuff at first, so they gave me a discount for waiting patiently for over 15 minutes. I then measured and marked my sheet and got an employee to cut it for me on their saw.
 
 ![Lumber Preparation]({{ "/assets/img/hangboard-lumber-layout.jpg" }})
 Post-cut MDF
@@ -66,7 +66,7 @@ Installed Support, depth view
 
 ## Testing
 
-With it installed, it was time for the inaugural test of strength. Could it hold my weight without coming crashing down?
+With the support installed, it was time for the inaugural test of strength. Could it hold my weight without coming crashing down?
 
 ![Weight Test Gif]({{ "/assets/gif/hangboard-weight-test-10fps.gif" }})
 
