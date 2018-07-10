@@ -65,6 +65,17 @@ f-strings
 * dict insertion order preservation
 * integar division
 * packaged venv (no more system python-virtualenv installation)
+
+Python 2
+```shell
+sudo pip install virtualenv
+virtualenv /path/to/venv
+```
+
+Python 3
+```shell
+python3 -m venv /path/to/venv
+```
 * static type checking (mypy)
 
 
