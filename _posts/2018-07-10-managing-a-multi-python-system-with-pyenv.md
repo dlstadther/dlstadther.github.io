@@ -15,23 +15,23 @@ I won't bore you with the product details, you can go read those yourself (writt
 If you're on Macos, the setup is cake.
 
 ```shell
-brew update
+$ brew update
 
 # initial installation
-brew install pyenv
+$ brew install pyenv
 
 # update existing installation
-brew upgrade pyenv
+$ brew upgrade pyenv
 ```
 
 But beware! If you also use zsh, you may need to add ~/.pyenv to your `$PATH` if you want `python --version` to utilize the Python version specified by pyenv.
 
 ```shell
-touch ~/.zsh.after/pyenv.zsh
-echo '# add .pyenv to PATH' >> ~/.zsh.after/pyenv.zsh
-echo 'export PATH="/Users/username/.pyenv:$PATH"' >> ~/.zsh.after/pyenv.zsh
-echo 'eval "$(pyenv init -)"' >> ~/.zsh.after/pyenv.zsh
-echo '' >> ~/.zsh.after/pyenv.zsh
+$ touch ~/.zsh.after/pyenv.zsh
+$ echo '# add .pyenv to PATH' >> ~/.zsh.after/pyenv.zsh
+$ echo 'export PATH="/Users/username/.pyenv:$PATH"' >> ~/.zsh.after/pyenv.zsh
+$ echo 'eval "$(pyenv init -)"' >> ~/.zsh.after/pyenv.zsh
+$ echo '' >> ~/.zsh.after/pyenv.zsh
 ```
 
 _Note that you'll need to update `username` with your system's username._
@@ -42,23 +42,23 @@ Now you're golden! Go play with your Python versions!
 
 ```shell
 # view currently installed pyenv versions
-pyenv versions
+$ pyenv versions
 
 # view list of installable Python versions
-pyenv install --list
+$ pyenv install --list
 
 # install specific Python version
-pyenv install 3.7.0
+$ pyenv install 3.7.0
 
 # uninstall specific Python version
-pyenv uninstall 2.6.9
+$ pyenv uninstall 2.6.9
 
 # set local Python version
-pyenv local 2.7.15
+$ pyenv local 2.7.15
 
 # unset local Python version
-pyenv local --unset
+$ pyenv local --unset
 
 # set global Python version
-pyenv global 3.7.0
+$ pyenv global 3.7.0
 ```
