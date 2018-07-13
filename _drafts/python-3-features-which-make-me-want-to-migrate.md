@@ -23,8 +23,9 @@ With the end of Python 2.7 support quickly approaching, I recognize the need to 
 
 
 
-Python3 features:
-* f-strings
+## Python3 features:
+
+### f-strings
 There are many methods of string formatting in Python 2:
 
 String Concatenation
@@ -56,15 +57,134 @@ But Python 3.6 released a new string formatting method, called formatted string 
 
 f-strings
 ```python
+Python 3.6+
 >>> x = 2
 >>> print(f"{x} + {x} is {x+x} minus {3} that's {x+x-3}. Quick Maths")
 "2 + 2 is 4 minus 1 that's 3. Quick Maths"
 ```
 
-* dict concatentation
-* dict insertion order preservation
-* integar division
-* packaged venv (no more system python-virtualenv installation)
+### Dict Merging (3.5+)
+
+Python 3.5+ allows the merging of multiple dictionaries using intuitive dictionary declaration curly braces (PEP 448):
+
+```python
+Python 3.5+
+>>> x = {'foo': 123, 'bar': 'abc'}
+>>> y = {'bar': 456}
+>>> z = {**x, **y}
+>>> print(z)
+{'foo': 123, 'bar': 456}
+
+>>> a = {**y, **x}
+>>> print(a)
+{'bar': 'abc', 'foo': 123}
+
+>>> b = {'doge': 'wow', **z}
+>>> print(b)
+{'doge': 'wow', 'foo': 123, 'bar': 456}
+```
+
+Currently, in Python 2 (or 3.4-) a few additional lines are required
+
+```python
+def merge_dicts(*dicts):
+    z = {}
+    for d in dicts:
+        z.update(d)
+    return z
+
+>>> w = {'foo': 'zyx'}
+>>> x = {'foo': 123, 'bar': 'abc'}
+>>> y = {'bar': 456}
+>>> z = merge_dicts(w, x, y)
+>>> print(z)
+{'foo': 123, 'bar': 456}
+```
+
+
+### Dict Keeps Insertion Order (3.6+)
+
+Python 3.5- does not guantee the key order of a normal dictionary:
+
+```python
+Python 3.5-
+>>> x = {'foo': 123, 'bar': 'abc'}
+>>> print(x)
+{'bar': 'abc', 'foo': 123}
+
+>>> a = {}
+>>> a['foo'] = 1
+>>> a['bar'] = 2
+>>> a['doge'] = 3
+>>> print(a)
+{'wow': 3, 'foo': 1, 'bar': 2}
+```
+
+However, in Python 3.6+ the standard behavior of dictionaries is to maintain insertion order
+
+```python
+Python 3.6+
+>>> x = {'b': 1, 'c': 2}
+>>> x['a': 0]
+>>> print(x)
+{'b': 1, 'c': 2, 'a': 0}
+```
+
+
+### Default Float Division
+
+When starting out with Python 2.x, everyone gets bitten by the following:
+
+```python
+Python 2.x
+>>> print(3 / 2)
+1
+```
+
+and we quickly learn that the `/` operator in Python 2.x performs integer division (also referred to as floor division).
+
+In order to perform floating division in Python 2.x, we learn to cast at least one of the operands to a float.
+
+```python
+Python 2.x
+>>> a = 3 / float(2)
+>>> b = float(3) / 2
+>>> c = float(3) / float(2)
+>>> d = 3.0 / 2
+>>> e = 3 / 2.0
+>>> f = 3.0 / 2.0
+
+>>> print(set((a, b, c, d, e, f)))
+set(1.5)
+```
+
+While this is easy, it's annoying. Python 3.x switched the default division operator, `/`, to perform floating division such that:
+
+```python
+Python 3.x
+>>> print(3 / 2)
+1.5
+```
+
+So now if you want integer division (for whatever reason), you use the operator `//`.
+
+```python
+Python 3.x
+>>> print(3 // 2)
+1
+```
+
+It's worth noting that Python 2.x includes the Python 3.x division functionality within its `__future__` import such that Python 2.x can be compatible with Python 3.x division.
+
+```python
+Python 2.x
+>>> from __future__ import division
+>>> print(3 / 2)
+1.5
+```
+
+
+### packaged venv (no more system python-virtualenv installation)
 
 Python 2
 ```shell
@@ -76,7 +196,8 @@ Python 3
 ```shell
 python3 -m venv /path/to/venv
 ```
-* static type checking (mypy)
+
+### static type checking (mypy)
 
 
 Python2 / Python3 Cheatsheet
