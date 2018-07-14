@@ -184,17 +184,19 @@ Python 2.x
 ```
 
 
-### packaged venv (no more system python-virtualenv installation)
+### Standard Library `venv`
 
-Python 2
+Python 3.3+ includes the `venv` module in its standard library. So it's no longer necessary to separately install `virtualenv`.
+
+Python 3.3-
 ```shell
-sudo pip install virtualenv
-virtualenv /path/to/venv
+$ sudo pip install virtualenv
+$ virtualenv ~/venv/myvenv
 ```
 
-Python 3
+Python 3.3+
 ```shell
-python3 -m venv /path/to/venv
+$ python3 -m venv ~/venv/myvenv
 ```
 
 ### static type checking (mypy)
