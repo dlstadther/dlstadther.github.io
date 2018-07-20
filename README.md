@@ -7,7 +7,7 @@ Used to investigate github pages and jekyll.
 
 ## Blog Post Ideas
 * Python
-    * Python3 Feature Excitement
+    * ~~Python3 Feature Excitement~~
     * Interview Problems
     * Spotify/Luigi: Real-world ETL Usage and Installation Guide
     * Simple REST API, using Flask or Django
