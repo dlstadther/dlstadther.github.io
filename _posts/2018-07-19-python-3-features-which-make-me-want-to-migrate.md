@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "Python 3 Features Which Make Me Want to Migrate"
-date: 2018-06-13
+date: 2018-07-19
 categories: python code
 ---
 
-I understand that Python3 was released nearly 10 years ago. However, I'm still on the Python 2.7 train.
+I understand that Python 3.0.0 was released nearly 10 years ago. However, I'm still on the Python 2.7.15 train (and looking forward to the future).
 
 My experience with Python came out of nowhere, with no strong reason (at least that I can recall).
 
@@ -15,15 +15,12 @@ As it's not the point of this post, I'll summarize my Python experieneces in bul
 * Spring 2015 - CISS 423: Survery of Programming Languages (2.7.9)
 * Summer 2015 - inherited existing ETL processes (2.7.8)
 * Spring 2016 : Current - assisted in maintenance and development of spotify/luigi.git (2.7, 3.3, 3.4, 3.5, 3.6)
-* Summer 2018 : Current - authored republicwireless/webmercator (2.7, 3.5, 3.6, 3.7)
+* Summer 2018 : Current - authored republicwireless/webmercator (2.7, 3.4+)
 
 With the end of Python 2.7 support quickly approaching, I recognize the need to migrate all my work and personal work to be Python 3 compatible. Perhaps "need" is a bit extreme - mostly just a desire. Python 3 brings improved function and new features - some of which I've found myself wishing I could currently use in existing development.
 
 
-
-
-
-## Python3 features:
+## Python 3 features:
 
 ### f-strings
 There are many methods of string formatting in Python 2:
@@ -198,9 +195,3 @@ Python 3.3+
 ```shell
 $ python3 -m venv ~/venv/myvenv
 ```
-
-### static type checking (mypy)
-
-
-Python2 / Python3 Cheatsheet
-http://python-future.org/compatible_idioms.html
