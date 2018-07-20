@@ -23,7 +23,7 @@ Used to investigate github pages and jekyll.
     * SQL: Group By vs Window Functions
 * Projects
     * blog framework/hosting comparison + implementation
-        * GH Pages
+        * ~~GH Pages~~
         * GL Pages
         * S3 + Cloudfront + Route 53
 * Other Technical
