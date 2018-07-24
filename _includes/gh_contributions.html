@@ -18,10 +18,18 @@ figure {
 </figure>
 
 <script>
-    var r = Math.floor((Math.random() * 255) + 1).toString(16);
-    var g = Math.floor((Math.random() * 255) + 1).toString(16);
-    var b = Math.floor((Math.random() * 255) + 1).toString(16);
-    var urlColor = `https://ghchart.rshah.org/${r}${g}${b}/dlstadther`
+    function randomColorInt() {
+        return Math.floor((Math.random() * 255) + 1);
+    }
+    function randomColorHex() {
+        return randomColorInt().toString(16);
+    }
+
+    var rgbHex = `${randomColorHex()}${randomColorHex()}${randomColorHex()}`
+
+    var urlColor = `https://ghchart.rshah.org/${rgbHex}/dlstadther`
+    var figureCaption = `Github Contribution Graph (Base RGB HEX: ${rgbHex})`
+
     document.getElementById("ghContributions").src = urlColor
-    document.getElementById("ghContributionsCaption").innerHTML = `Github Contribution Graph (Base RGB HEX: ${r}${g}${b})`
+    document.getElementById("ghContributionsCaption").innerHTML = figureCaption
 </script>
