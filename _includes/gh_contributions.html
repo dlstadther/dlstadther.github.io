@@ -1,2 +1,27 @@
-<a href="https://github.com/dlstadther"><img src="http://ghchart.rshah.org/dlstadther" alt="dlstadther's Github contributions" /></a>
+<style>
+figure {
+  float: center;
+  width: 100%;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  border: thin silver solid;
+  margin: 2em;
+  padding: 2em;
+}
+</style>
 
+<figure>
+    <a href="https://github.com/dlstadther"><img id="ghContributions" src="http://ghchart.rshah.org/dlstadther" alt="dlstadther's Github contributions"/></a>
+    <figcaption id="ghContributionsCaption"></figcaption>
+</figure>
+
+<script>
+    var r = Math.floor((Math.random() * 255) + 1).toString(16);
+    var g = Math.floor((Math.random() * 255) + 1).toString(16);
+    var b = Math.floor((Math.random() * 255) + 1).toString(16);
+    var urlColor = `http://ghchart.rshah.org/${r}${g}${b}/dlstadther`
+    document.getElementById("ghContributions").src = urlColor
+    document.getElementById("ghContributionsCaption").innerHTML = `Github Contribution Graph (Base RGB HEX: ${r}${g}${b})`
+</script>
