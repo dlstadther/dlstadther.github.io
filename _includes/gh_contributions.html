@@ -18,8 +18,11 @@ figure {
 </figure>
 
 <script>
+    function randomInt(min, max) {
+        return Math.floor((Math.random() * (max - min)) + min)
+    }
     function randomColorInt() {
-        return Math.floor((Math.random() * 255) + 1);
+        return randomInt(1, 255);
     }
     function randomColorHex() {
         return randomColorInt().toString(16);
