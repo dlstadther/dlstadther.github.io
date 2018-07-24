@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
+{% include gh_contributions.html %}
+
 Hi, I'm a Data Engineer at Republic Wireless. I get to spend my days working on everything from optimizing database storage mechanics to data visualization (and everything in between).
 
 The best part of my job [, my team, and my company] is the freedom I have to learn new technologies and methodologies through direct application within the bounds on my job responsibilities.
