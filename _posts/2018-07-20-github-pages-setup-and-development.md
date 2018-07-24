@@ -18,7 +18,7 @@ The following will serve as a self-reminder for how this blog was setup on Githu
 
 ## Setup Local Development Evironment
 
-We need a couple things
+We need a couple things for Macos development:
 1. Homebrew
 2. Ruby
 3. xcode-select
