@@ -2,7 +2,7 @@
 layout: post
 title: "Github Pages - Setup and Development"
 date: 2018-07-20
-categories: code deployment devops
+categories: ['code', 'deployment', 'devops']
 ---
 
 The following will serve as a self-reminder for how this blog was setup on Github Pages.

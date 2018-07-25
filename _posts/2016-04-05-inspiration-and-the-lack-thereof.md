@@ -2,7 +2,7 @@
 layout: post
 title: "Inspiration and the Lack Thereof"
 date: 2016-04-05
-categories: personal reflection project
+categories: ['personal', 'reflection', 'project']
 ---
 
 One of the greatest challenges I've faced in my academic and professional career (however brief) has been independent ingenuity.

@@ -2,7 +2,7 @@
 layout: post
 title: "Python 3 Features Which Make Me Want to Migrate"
 date: 2018-07-19
-categories: python code
+categories: ['python', 'code']
 ---
 
 I understand that Python 3.0.0 was released nearly 10 years ago. However, I'm still on the Python 2.7.15 train (and looking forward to the future).

@@ -2,7 +2,7 @@
 layout: post
 title: "Managing a Multi-Python System with pyenv"
 date: 2018-07-10
-categories: python system macos
+categories: ['python', 'system', 'macos']
 ---
 
 I ran into the need to have multiple versions of Python installed on my machine at one time - different ones for different projects. Thankfully, I'm not the only one with this need!

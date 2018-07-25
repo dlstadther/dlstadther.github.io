@@ -2,7 +2,7 @@
 layout: post
 title: "DIY: Hangboard Wall Support"
 date: 2018-06-23
-categories: climbing training carpentry design engineering
+categories: ['climbing', 'training', 'carpentry', 'design', 'engineering']
 ---
 
 Growing up, I've found that as I find activities I enjoy I tend to invest both time and money into getting better at them. Climbing is no exception.
