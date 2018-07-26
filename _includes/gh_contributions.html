@@ -13,26 +13,73 @@ figure {
 </style>
 
 <figure>
-    <a href="https://github.com/dlstadther"><img id="ghContributions" src="https://ghchart.rshah.org/dlstadther" alt="dlstadther's Github contributions"/></a>
-    <figcaption id="ghContributionsCaption"></figcaption>
+  <a href="https://github.com/dlstadther"><img id="ghContributions" src="https://ghchart.rshah.org/dlstadther" alt="dlstadther's Github contributions"/></a>
+
+  <figcaption id="ghContributionsCaption">Github Contribution Graph</figcaption>
+
+  <button onclick="randomizeGhContributionChart()">Randomize Graph Color</button>
+
+  <form id="submitColorHex">
+    Color Hex: <input type="color" name="rgbHex" value="#5996b6"><br>
+    <input type="button" onclick="submitColorGhContributionChart()" value="Update Color">
+  </form>
+
+  <button onclick="resetGhContribitionChart()">Reset Graph Color</button>
 </figure>
 
 <script>
-    function randomInt(min, max) {
-        return Math.floor((Math.random() * (max - min)) + min)
-    }
-    function randomColorInt() {
-        return randomInt(1, 255);
-    }
-    function randomColorHex() {
-        return randomColorInt().toString(16);
-    }
+  function randomInt(min, max) {
+    return Math.floor((Math.random() * (max - min)) + min)
+  }
+  function randomColorInt() {
+    return randomInt(1, 255);
+  }
+  function randomColorHex() {
+    return randomColorInt().toString(16);
+  }
 
-    var rgbHex = `${randomColorHex()}${randomColorHex()}${randomColorHex()}`
+  function getRandomRgbHex() {
+    return `${randomColorHex()}${randomColorHex()}${randomColorHex()}`
+  }
 
-    var urlColor = `https://ghchart.rshah.org/${rgbHex}/dlstadther`
+  function getGhColorChart(rgbHex) {
+    return `https://ghchart.rshah.org/${rgbHex}/dlstadther`
+  }
+
+  function setGhContributionsChart(urlColor) {
+    document.getElementById("ghContributions").src = urlColor
+  }
+
+  function setGhContributionsCaption(figureCaption) {
+    document.getElementById("ghContributionsCaption").innerHTML = figureCaption
+  }
+
+  function updateChContributionChart(rgbHex) {
+    var urlColor = getGhColorChart(rgbHex)
     var figureCaption = `Github Contribution Graph (Base RGB HEX: ${rgbHex})`
 
-    document.getElementById("ghContributions").src = urlColor
-    document.getElementById("ghContributionsCaption").innerHTML = figureCaption
+    setGhContributionsChart(urlColor)
+    setGhContributionsCaption(figureCaption)
+  }
+
+  function randomizeGhContributionChart() {
+    var rgbHex = getRandomRgbHex()
+    console.log(`Random: ${rgbHex}`)
+
+    updateChContributionChart(rgbHex)
+  }
+
+  function submitColorGhContributionChart() {
+    var rgbHex = document.getElementById("submitColorHex").elements[0].value;
+    rgbHex = rgbHex.substr(1);
+    console.log(`Submission: ${rgbHex}`)
+
+    updateChContributionChart(rgbHex)
+  }
+
+  function resetGhContribitionChart() {
+    setGhContributionsChart(`https://ghchart.rshah.org/dlstadther`)
+    setGhContributionsCaption(`Github Contribution Graph`)
+  }
+
 </script>
