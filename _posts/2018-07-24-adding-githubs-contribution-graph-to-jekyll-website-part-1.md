@@ -14,7 +14,7 @@ I say the graph is meaningless for two reasons:
 
 However, these graphs provide an easily digestable view into one's commit frequency.
 
-Given my enjoyment of this graph, I decided to try to insert it here (on this site).
+Given my enjoyment of this graph, I decided to try to insert it here (on this site). While I was at it, I wanted to relearn Javascript.
 
 Note that Github does not (currently) provide an easy mechanism to extract this graph from one's Github Profile.
 
