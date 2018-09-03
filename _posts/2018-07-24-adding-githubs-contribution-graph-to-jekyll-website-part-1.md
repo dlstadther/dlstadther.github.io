@@ -46,7 +46,7 @@ Up-to-date code for this can be found at [/\_includes/gh_contributions.html](htt
 
 <script src="https://gist.github.com/dlstadther/cb34932211531a8d9543843ebb67c640.js"></script>
 
-This satified my base desire - to have my Github Contribution Graph on a website other than Github. However, one keep component was missing - the commit count.
+This satified my base desire - to have my Github Contribution Graph on a website other than Github. However, one key component was missing - the commit count.
 
 
 ## Method 2: [Github Contributions Chart Generator](https://github.com/sallar/github-contributions-chart)
