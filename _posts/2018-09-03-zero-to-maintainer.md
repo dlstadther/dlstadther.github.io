@@ -42,7 +42,7 @@ Maintainer Tips:
 * Automate where you can
     * Github's [CODEOWNERs](https://help.github.com/articles/about-codeowners/) is a good place to start for code reviews
     * [Probot's stale](https://github.com/probot/stale) is immensely helpful for cleaning a repo for orphaned submissions
-* Respond to PRs and Issues quickly, even if just to say "Thanks for submitting, I'll take a look soon!" or "I'm not an expert on this area, but maybe @<user> might be able to provide additional guidance."
+* Respond to PRs and Issues quickly, even if just to say "Thanks for submitting, I'll take a look soon!" or "I'm not an expert on this area, but maybe @user might be able to provide additional guidance."
 * Spend the extra few minutes crafting responses such that they're clear in content and intention
     * We don't all share the same primary language, so do what you can to reduce the need to excessive back and forth conversations to clarify each other's intentions
 * Be patient
