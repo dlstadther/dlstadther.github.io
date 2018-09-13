@@ -31,7 +31,7 @@ Used to investigate github pages and jekyll.
 * Non-Technical (outside of code)
     * Disc Golf
         * strategy, nature impact, pictures
-        * pvc disc storage shelf
+        * ~~pvc disc storage shelf~~
     * Hangboard Carpentry + Design + Engineering
         * ~~design + build~~
         * calculate theoretical max weight strength
