@@ -28,6 +28,7 @@ Used to investigate github pages and jekyll.
         * S3 + Cloudfront + Route 53
 * Other Technical
     * IDE vs Text Editor - why i prefer PyCharm over Sublime Text
+    * ~~Zero to Maintainer - Reflection on role with Luigi~~
 * Non-Technical (outside of code)
     * Disc Golf
         * strategy, nature impact, pictures
