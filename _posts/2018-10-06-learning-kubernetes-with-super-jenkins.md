@@ -228,7 +228,7 @@ Navigate to Jenkins Dashboard. Managage Jenkins -> Configure System -> Cloud -> 
 ```
 Name: "kubernetes"
 Kubernetes URL: "https://192.168.99.100:8443"  # Internal Jenkins Pod URL
-Jenkins URL: "https://172.17.0.6:8080"  # Jenkins master URL
+Jenkins URL: "http://172.17.0.6:8080"  # Jenkins master URL - be sure it's http
 ```
 
 Images -> Kubernetes Pod Template.
