@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Stateless Jenkins - V2 - Basic Recipe Refactor"
+date: 2018-10-07
+categories: ['kubernetes', 'system', 'macos', 'jenkins']
+---
+
 Now that I successfully followed a blog post and created a Jenkins slave-executor within Kubernetes, the next goal is to refactor the multiple K8s configurations into a single YML and make small Docker and K8s changes.
 
 ## Create Local Dir
