@@ -92,6 +92,14 @@ $ git push origin master
 
 # Development Process
 
+## Site Configuration
+
+```shell
+bundle update
+```
+
+## Post Writing
+
 As blog posts take awhile for me to write, a post will need to sit somewhere under version control where it will not be compiled and displayed with completed articles.
 
 For this reason, a `_draft/` exists.
