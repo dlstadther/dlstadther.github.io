@@ -14,7 +14,7 @@ As of early 2020, I had converted a `git` blog post from a post to a "cheatsheet
 
 However, when I went to add to a new "cheatsheet" in late 2021 I found that the CI/CD for Gitbook was failing.
 
-Given that I'm writing this retrospective many months after-the-fact, I cannot recall the exact errors I was encountering. The long-and-the-short of it was that Gitbook was not supported in the opensource capacity that it once was and I needed to replace my usage of it within something else.
+Given that I'm writing this retrospective many months after-the-fact, I cannot recall the exact errors I was encountering. The long-and-the-short of it was that Gitbook was not supported in the opensource capacity that it once was and I needed to replace my usage of it with something else.
 
 ## Alternatives
 
