@@ -130,6 +130,7 @@ roleRef:
 EOF
 ```
 
+{% raw %}
 ```shell
 # Apply K8s definitions
 $ kubectl apply -f jenkins.yml
@@ -137,6 +138,7 @@ $ kubectl apply -f jenkins.yml
 # Get Jenkins URL
 $ echo $(minikube ip):$(kubectl get services/jenkins -o go-template='{{(index .spec.ports 0).nodePort}}')
 ```
+{% endraw %}
 
 
 ## Manually configure K8s Jenkins executors
