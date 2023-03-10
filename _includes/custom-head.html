@@ -1,3 +1,6 @@
 {%- if jekyll.environment == 'production' and site.google_adsense -%}
   {%- include google_adsense.html -%}
 {%- endif -%}
+{%- if jekyll.environment == 'production' and site.google_analytics -%}
+  {%- include google_analytics_v4.html -%}
+{%- endif -%}
