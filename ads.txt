@@ -1,0 +1,5 @@
+
+---
+layout: null
+---
+{%- if jekyll.environment == 'production' and site.google_adsense -%}google.com, {{ site.google_adsense }}, DIRECT, f08c47fec0942fa0{% endif %}
