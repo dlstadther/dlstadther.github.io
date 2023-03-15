@@ -82,7 +82,7 @@ No project is without fault.
 * Saw blade-width buffer
     * When cutting from a sheet of MDF (or other material), consider the width of the blade when measuring the length of your cuts
 * MDF is strong when drilling perpendicular to its panels; drilling parallel to these panels requires pilot holes
-    * Otherwise, expect your board to crack to the nearlest edge
-* Countersinks really improve the asthetic of a wooden structure when screws are involved
-* Don't ever think that your hand is stready enough to free-cut a straight cut with a circular saw
+    * Otherwise, expect your board to crack to the nearest edge
+* Countersinks really improve the aesthetic of a wooden structure when screws are involved
+* Don't ever think that your hand is steady enough to free-cut a straight cut with a circular saw
     * I strongly advise creating a track to aid in a perfectly straight cut
